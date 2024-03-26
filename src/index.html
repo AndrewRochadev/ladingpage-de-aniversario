@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festa do Andrew</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Aniversário do Andrew começa em <br>
+                <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Light Festas - Surubim - Pernambuco
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        25/03/2025 às 20hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Tema</h2>
+                <p class="event__details__description">
+                    O tema deste ano será festa a fantasia, então prepare a sua roupa e participe!
+                </p>
+            </div>
+            <img class="event__image" src="./images/festa-a-fantasia.png" alt="Front-end">
+        </div>
+    </section>
+    <section class="event event--ui-ux event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Localização</h2>
+                <p class="event__details__description">
+                    A festa será na Light Festa no centro da cidade e de fácil locomoção para todos!
+                </p>
+            </div>
+            <img class="event__image" src="./images/casa-de-festa.jfif" alt="UI/UX">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Musica</h2>
+                <p class="event__details__description">
+                    Teremos um dj tocando músicas dos anos 80-90 durante 4 horas de festa logo após show ao vivo com a banda X
+                </p>
+            </div>
+            <img class="event__image" src="./images/dj.jfif" alt="Data Science">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
